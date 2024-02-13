@@ -1,0 +1,93 @@
+[
+  {
+    "Id": 1,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "01-01-2022",
+    "UserID": 1
+  },
+  {
+    "Id": 2,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "01-02-2022",
+    "UserID": 1
+  },
+  {
+    "Id": 3,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "01-02-2023",
+    "UserID": 1
+  },
+  {
+    "Id": 4,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "",
+    "UserID": 1
+  },
+  {
+    "Id": 5,
+    "Amount": 10,
+    "Name": "Netto",
+    "Transaction Date": "01-03-2023",
+    "UserID": 1
+  },
+  {
+    "Id": 6,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "01-04-2023",
+    "UserID": 1
+  },
+  {
+    "Id": 7,
+    "Amount": "99,95",
+    "Name": "Disney+",
+    "Transaction Date": "01-01-2022",
+    "UserID": 1
+  },
+  {
+    "Id": 8,
+    "Amount": "99,95",
+    "Name": "Disney+",
+    "Transaction Date": "01-02-2022",
+    "UserID": 1
+  },
+  {
+    "Id": 9,
+    "Amount": "99,95",
+    "Name": "Disney+",
+    "Transaction Date": "01-02-2023",
+    "UserID": 1
+  },
+  {
+    "Id": 10,
+    "Amount": 99.95,
+    "Name": "Disney+",
+    "Transaction Date": "01-03-2023",
+    "UserID": 1
+  },
+  {
+    "Id": 11,
+    "Amount": 10,
+    "Name": "Netflix",
+    "Transaction Date": "01-01-2022",
+    "UserID": 2
+  },
+  {
+    "Id": 12,
+    "Amount": "/10",
+    "Name": "Netflix",
+    "Transaction Date": "01-02-2022",
+    "UserID": 2
+  },
+  {
+    "Id": 13,
+    "Amount": 5,
+    "Name": "Disney+",
+    "Transaction Date": "01-04-2023",
+    "UserID": 1
+  }
+]

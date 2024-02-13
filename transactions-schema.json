@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://bachelor-project.sdu/transactions-schema",
+  "title": "List of transactions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id","amount", "name", "userId"],
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "amount": {
+        "type": "number",
+        "minimum": 0
+      },
+      "name": {
+        "type": "string"
+      },
+      "transactionDate": {
+        "type": "string",
+        "format": "date"
+      },
+      "userId": {
+        "type": "integer"
+      }
+    }
+  },
+  "additionalProperties": false
+}
