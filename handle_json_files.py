@@ -19,6 +19,13 @@ def load_json(datafile, schemafile) -> list:
 
     return data
 
+
+def load_json_without_schema(filename) -> list:
+    with open('Data/' + filename) as f:
+        data = json.load(f)
+    return data
+
+
 def write_to_json(filename, dataset):
-    with open("Data/" + filename + ".json", "w") as newJsonFile:
-        newJsonFile.write(json.dumps(dataset, indent=2))
+    with open("Data/" + filename + ".json", "w") as f:
+        json.dump(dataset, f, indent=2)
